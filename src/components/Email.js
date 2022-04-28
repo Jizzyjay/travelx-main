@@ -16,7 +16,7 @@ const Email = () => {
                             <input type="email" placeholder='Enter your email' id="email" />
                         </label>
                         <Button 
-                            as="button" 
+                            as="button"
                             type="submit" 
                             primary="true"
                             round="true"
