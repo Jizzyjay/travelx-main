@@ -1,0 +1,26 @@
+[
+    {
+        "img":"../assets/image/trips4.jpg",
+        "alt": "Santorini",
+        "name": "Santorini",
+        "button": "View Destination"
+    },
+    {
+        "img":"../assets/image/trips5.jpg",
+        "alt": "Egypt",
+        "name": "Pyramid of Gaza",
+        "button": "View Destination"
+    },
+    {
+        "img":"../assets/image/trips8.jpg",
+        "alt": "Eiffel Tower",
+        "name": "Eiffel Tower",
+        "button": "View Destination"
+    },
+    {
+        "img":"../assets/image/trips9.jpeg",
+        "alt": "Desert",
+        "name": "Desert",
+        "button": "View Destination"
+    }
+]
