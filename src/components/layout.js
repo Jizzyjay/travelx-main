@@ -1,5 +1,5 @@
 import * as React from "react"
-import Header from "./Header"
+import Header from "./Headers"
 import Footer from "./Footer"
 import { GlobalStyle } from "./Styles/GlobalStyles"
 
