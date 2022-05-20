@@ -8,7 +8,7 @@ const Email = () => {
     return (
         <EmailContainer>
             <EmailContent>
-                <h1>Get Access to Exclusive Offers</h1>
+                <h1>Get Access to Exclusive Offers.</h1>
                 <p>Sign up for weekly newsletter below to get $50 off your first trip!</p>
                 <form action="#">
                     <FormWrap>
@@ -48,7 +48,7 @@ const EmailContainer = styled.div`
     background-size: cover;
     height: 450px;
     width: 100%;
-    padding: 5rem calc((100vw -1300px) / 2);
+    padding: 5rem calc((100vw - 1300px) / 2);
     color: #fff;
     display: flex;
     justify-content: center;
@@ -93,7 +93,6 @@ const FormWrap = styled.div`
         display: flex;
         flex-direction: column;
         padding: 0 1rem;
-    
 
         input {
             margin-bottom:  1rem;

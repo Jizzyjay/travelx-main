@@ -58,7 +58,6 @@ const Testimonials = () => {
                 {data.allFile.edges.map((image, key) => (
                     <Images key={key} fluid={image.node.childImageSharp.fluid} />
                 ))}
-                    
                 </ColumnTwo>
             </ContentWrapper>
         </TestimonialsContainer>
@@ -73,7 +72,6 @@ const TestimonialsContainer = styled.div`
     color: #000;
     padding: 5rem calc((100vh - 1300px) / 2);
     height: 100%;
-
 `
 const TopLine = styled.p`
     color: #077bf1;

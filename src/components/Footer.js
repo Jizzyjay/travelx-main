@@ -13,18 +13,18 @@ const Footer = () => {
                 <FooterLinkItems>
                 <FooterLinkTitle>Contact Us</FooterLinkTitle>
                 <FooterLink to="/about">Contact</FooterLink>
-                <FooterLink>Contact</FooterLink>
-                <FooterLink>Contact</FooterLink>
-                <FooterLink>Contact</FooterLink>
+                <FooterLink>Support</FooterLink>
+                <FooterLink>Destinations</FooterLink>
                 </FooterLinkItems>      
             </FooterLinksWrapper>
             <FooterLinksWrapper>
                 <FooterLinkItems>
                 <FooterLinkTitle>Social Media</FooterLinkTitle>
-                <FooterLink to="/about">Contact</FooterLink>
-                <FooterLink>Contact</FooterLink>
-                <FooterLink>Contact</FooterLink>
-                <FooterLink>Contact</FooterLink>
+                <FooterLink>Instagram</FooterLink>
+                <FooterLink>Facebook</FooterLink>
+                <FooterLink>Youtube</FooterLink>
+                <FooterLink>Snapchat</FooterLink>
+                <FooterLink>Twitter</FooterLink>
                 </FooterLinkItems>
 
             </FooterLinksWrapper>
@@ -35,7 +35,7 @@ const Footer = () => {
 export default Footer
 
 const FooterContainer = styled.div`
-    padding: 5rem calc((100vw - 1300px) / 2);
+    padding: 5rem calc((100vw - 1100px) / 2);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     color: #000;
@@ -48,6 +48,10 @@ const FooterDesc = styled.div`
     h1 {
         margin-bottom: 3rem;
         color: #fa6a2e;
+    }
+
+    p {
+        font-size: 17px;
     }
 
     @media screen and (max-width: 400px) {
@@ -67,7 +71,7 @@ const FooterLinksWrapper = styled.div`
 const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
-    align-item: flex-start;
+    align-items: flex-start;
     padding: 1rem 2rem;
 
     @media screen and (max-width: 400px) {
@@ -75,14 +79,14 @@ const FooterLinkItems = styled.div`
     }
 `
 
-const FooterLink = styled.h2`
-    font-size: 14px;
+const FooterLinkTitle = styled.h1`
+    font-size: 20px;
     margin-bottom: 16px;
 `
 
-const FooterLinkTitle = styled(Link)`
+const FooterLink = styled(Link)`
     text-decoration: none;
-    margin-bottom: .5rem
+    margin-bottom: 5rem
     font-size: 14px;
     color: #3d3d4e;
     cursor: pointer;

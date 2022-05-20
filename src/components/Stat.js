@@ -6,44 +6,44 @@ import { FaMoneyCheck } from 'react-icons/fa'
 
 const StatData = [
     {
-        icons: (<BiWorld 
+        icons: <BiWorld
             css={`
             color: #047bf1;`} 
-            /> ),
+            />,
         title: "Over 120 Destinations",
         desc: "Travel to over 120 unique destinations",
     },
     {
-        icons: (<MdAirplanemodeActive 
+        icons: <MdAirplanemodeActive 
             css={`
             color: #f3a82e;`}
-            /> ),
+            />,
         title: "1 million Trips Made",
         desc: "Over 1 million trips completed last year",
     },
     {
-        icons: (<MdTimer 
+        icons: <MdTimer 
             css={`
             color: #f34f2e;`}
-        /> ),
+        />,
         title: "Fastest Customer Support",
         desc: "Access our Customer Support 24/7",
     },
     {
-        icons: (<FaMoneyCheck 
+        icons: <FaMoneyCheck 
             css={`
-            color: #3af576;`}/> ),
+            color: #3af576;`}/>,
         title: "Best Deals",
         desc: "We offer the best prices",
-    },
+    }
 ]
 
 const Stat = () => {
     return (
         <StatContainer>
-            <Heading>Why You Should Choose Us</Heading>
+            <Heading>Why You Should Choose Us?</Heading>
             <Wrapper>
-                {StatData.map((item, index ) => {
+                {StatData.map((item, index) => {
                 return (
                     <StatBox key={index}>
                         <Icon>{item.icon}</Icon>
@@ -69,7 +69,7 @@ const StatContainer = styled.div`
     padding: 4rem calc((100vw - 1300px) / 2);
 `
 
-const Heading = styled.div` 
+const Heading = styled.h1` 
     text-align: start;
     font-size: clamp (1.5rem, 5vw, 2rem)
     margin-bottom: 3rem;

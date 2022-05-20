@@ -7,7 +7,7 @@ const Hero = () => {
     return (
         <HeroContainer>
             <HeroBg>
-                <VideoBg src={ Video }type="video/mp4" autoPlay 
+                <VideoBg src={ Video } type="video/mp4" autoPlay 
                 loop muted playsInline />
             </HeroBg>
             <HeroContent>
@@ -46,9 +46,7 @@ const HeroContainer = styled.div`
             180deg, 
             rgba(0, 0, 0, .2) 0%, 
             rgba(0, 0, 0, .6) 100%
-        ), linear-gradient(
-            180deg, 
-            rgba(0, 0, 0, .2) 0%, 
+        ), linear-gradient(180deg, rgba(0, 0, 0, .2) 0%, 
             transparent 100%);
     }
 `
